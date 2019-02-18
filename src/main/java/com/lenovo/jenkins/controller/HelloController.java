@@ -8,6 +8,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hello(){
+        System.err.println("调用 /hello");
         return "hello Spring Boot";
     }
 }
